@@ -1,3 +1,11 @@
+#name-input {
+    
+        border: 1px dotted #999;
+        border-radius: 0;
+      
+        -webkit-appearance: none;
+}
+
 h1 {
     font-size: 35px;
 }
@@ -9,3 +17,8 @@ h1 {
 .input {
     border: 3px solid sandybrown;
 }
+
+.hidden {
+    display: none;
+}
+

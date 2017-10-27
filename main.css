@@ -5,6 +5,9 @@
       
         -webkit-appearance: none;
 }
+/* #name-input {
+    background-color: green;
+} */
 
 h1 {
     font-size: 35px;
@@ -15,7 +18,7 @@ h1 {
 }
 
 .input {
-    border: 3px solid sandybrown;
+    border: 1px solid sandybrown;
 }
 
 .hidden {

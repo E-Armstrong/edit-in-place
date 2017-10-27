@@ -12,6 +12,18 @@ $(document).ready(function(){
         $('#user-print').text($('#name-input')[0].value)
         console.log($('#name-input')[0].value)
     })
+    $('#about-yourself-print').on( 'click', function(event) {
+        $('#about-yourself-input').toggleClass('hidden');
+        $('#about-yourself-print').toggleClass('hidden');
+        $('#about-yourself-input').focus();
+        $('#about-yourself-input').val($('#about-yourself-print')[0].innerText)
+    })
+    $('#about-yourself-input').on( 'blur', function() {
+        $('#about-yourself-input').toggleClass('hidden');
+        $('#about-yourself-print').toggleClass('hidden');
+        $('#about-yourself-print').text($('#about-yourself-input')[0].value)
+        console.log($('#about-yourself-input')[0].value)
+    })
 })
 
     
